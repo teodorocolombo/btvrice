@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<!DOCTYPE Menu
+  PUBLIC '-//freedesktop//DTD Menu 1.0//EN'
+  'http://standards.freedesktop.org/menu-spec/menu-1.0.dtd'>
+<Menu>
+	<Name>Applications</Name>
+	<MergeFile type="parent">/etc/xdg/menus/lxde-applications.menu</MergeFile>
+	<Menu>
+		<Name>Development</Name>
+		<Include>
+			<Filename>alacarte-made.desktop</Filename>
+		</Include>
+		<Layout>
+			<Merge type="menus"/>
+			<Filename>arduino.desktop</Filename>
+			<Filename>geany.desktop</Filename>
+			<Filename>python3.9.desktop</Filename>
+			<Merge type="files"/>
+		</Layout>
+	</Menu>
+</Menu>
